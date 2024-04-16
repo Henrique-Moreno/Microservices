@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: authentication-service
+  labels:
+    app: authentication
+
+spec:
+  selector:
+    app: authentication
+  type: ClusterIP
+  ports:
+  - name: authentication-service
+    port: 80
+    targetPort: 3333
+    protocol: TCP

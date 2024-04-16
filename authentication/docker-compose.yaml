@@ -1,0 +1,38 @@
+version: '3.7'
+
+services:
+
+  postgres:
+    image: postgres
+    container_name: db-authentication
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=docker
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=db-user
+    volumes:
+      - 'db:/var/lib/postgresql/data'
+    networks:
+      - authentication
+
+  authentication:
+    build:
+      context: .
+    container_name: authentication
+    ports:
+      - 8080:8080
+    environment:
+      - DATABASE_URL=postgresql://docker:docker@postgres:5432/db-user
+      - API_BASE_URL=http://localhost:8080
+    depends_on:
+      - postgres
+    networks:
+      - authentication
+
+networks:
+  authentication:
+    driver: bridge
+
+volumes:
+  db:

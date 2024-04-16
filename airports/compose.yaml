@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+
+  postgres:
+    image: postgres
+    container_name: airport
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=docker
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=db-airports
+    volumes:
+      - 'db:/var/lib/postgresql/data'
+
+volumes:
+  db:
