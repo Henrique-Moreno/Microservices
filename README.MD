@@ -3,17 +3,6 @@
 <h1>Projeto de Gerenciamento de Voos</h1>
 
 <p>Projeto de gerenciamento de voos! Este sistema foi desenvolvido com a intenção de facilitar o controle e a gestão de voos, aplicando uma arquitetura baseada em microsserviços. Isso permite que o projeto seja escalável e de fácil manutenção, distribuindo a responsabilidade de cada funcionalidade para diferentes componentes independentes.</p>
-<h2>Tecnologias Utilizadas</h2>
-
-<ul>
-    <li><strong>Java:</strong> Linguagem de programação principal utilizada para o desenvolvimento de todos os microsserviços.</li>
-    <li><strong>Spring Framework:</strong> Framework que facilita a criação e configuração dos microsserviços, garantindo um desenvolvimento rápido e organizado.</li>
-    <li><strong>PostgreSQL:</strong> Banco de dados relacional utilizado para armazenar os dados da aplicação, oferecendo robustez e confiabilidade.</li>
-    <li><strong>Docker:</strong> Plataforma de contêineres utilizada para empacotar e distribuir os microsserviços, garantindo que eles sejam executados de forma consistente em qualquer ambiente.</li>
-    <li><strong>Kubernetes (Kubectl e K3D):</strong> Ferramentas utilizadas para orquestração de contêineres e gerenciamento das implantações em ambientes de produção, assegurando alta disponibilidade e escalabilidade.</li>
-    <li><strong>RabbitMQ:</strong> Sistema de mensagens que permite a comunicação assíncrona entre os microsserviços, promovendo uma arquitetura desacoplada e resiliente.</li>
-    <li><strong>Spring Security:</strong> Framework de segurança utilizado para implementar a autenticação e autorização, garantindo que os usuários só possam acessar os recursos aos quais têm permissão. Inclui a geração e validação de tokens de autenticação para maior segurança.</li>
-</ul>
 
 <h2>Sobre o Projeto</h2>
 
@@ -26,6 +15,19 @@
 <h2>Segurança</h2>
 
 <p>Para garantir a segurança dos dados e das operações realizadas na aplicação, o Spring Security é empregado para implementar autenticação e autorização robustas. A aplicação utiliza tokens de autenticação, que são gerados e validados a cada requisição, assegurando que apenas usuários autorizados possam acessar funcionalidades críticas.</p>
+
+<h2>Tecnologias Utilizadas</h2>
+
+<ul>
+    <li><strong>Java:</strong> Linguagem de programação principal utilizada para o desenvolvimento de todos os microsserviços.</li>
+    <li><strong>Spring Framework:</strong> Framework que facilita a criação e configuração dos microsserviços, garantindo um desenvolvimento rápido e organizado.</li>
+    <li><strong>PostgreSQL:</strong> Banco de dados relacional utilizado para armazenar os dados da aplicação, oferecendo robustez e confiabilidade.</li>
+    <li><strong>Docker:</strong> Plataforma de contêineres utilizada para empacotar e distribuir os microsserviços, garantindo que eles sejam executados de forma consistente em qualquer ambiente.</li>
+    <li><strong>Kubernetes (Kubectl e K3D):</strong> Ferramentas utilizadas para orquestração de contêineres e gerenciamento das implantações em ambientes de produção, assegurando alta disponibilidade e escalabilidade.</li>
+    <li><strong>RabbitMQ:</strong> Sistema de mensagens que permite a comunicação assíncrona entre os microsserviços, promovendo uma arquitetura desacoplada e resiliente.</li>
+    <li><strong>Spring Security:</strong> Framework de segurança utilizado para implementar a autenticação e autorização, garantindo que os usuários só possam acessar os recursos aos quais têm permissão. Inclui a geração e validação de tokens de autenticação para maior segurança.</li>
+</ul>
+
 <footer>
     <p>Este projeto está licenciado sob a <a href="https://opensource.org/licenses/MIT" target="_blank">Licença MIT</a>. Você é livre para usar, modificar e distribuir este software,         desde que mantenha o aviso de copyright e a licença original.</p>
 </footer>
