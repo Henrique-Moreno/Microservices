@@ -26,7 +26,7 @@
 <h2>Segurança</h2>
 
 <p>Para garantir a segurança dos dados e das operações realizadas na aplicação, o Spring Security é empregado para implementar autenticação e autorização robustas. A aplicação utiliza tokens de autenticação, que são gerados e validados a cada requisição, assegurando que apenas usuários autorizados possam acessar funcionalidades críticas.</p>
-
 <footer>
-    <p>Desenvolvido por [Seu Nome]. Este projeto é uma implementação de um sistema de gerenciamento de voos, aplicando boas práticas de desenvolvimento e arquitetura de software.</p>
+    <p>Este projeto está licenciado sob a <a href="https://opensource.org/licenses/MIT" target="_blank">Licença MIT</a>. Você é livre para usar, modificar e distribuir este software,         desde que mantenha o aviso de copyright e a licença original.</p>
 </footer>
+
