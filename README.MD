@@ -4,6 +4,8 @@
 
 <p>Projeto de gerenciamento de voos! Este sistema foi desenvolvido com a intenção de facilitar o controle e a gestão de voos, aplicando uma arquitetura baseada em microsserviços. Isso permite que o projeto seja escalável e de fácil manutenção, distribuindo a responsabilidade de cada funcionalidade para diferentes componentes independentes.</p>
 
+<p><strong>Aviso:</strong> Este repositório contém apenas uma parte do código do projeto. Por razões de segurança e direitos autorais, o código completo não está disponível.</p>
+
 <h2>Sobre o Projeto</h2>
 
 <p>A divisão do sistema em microsserviços permite que cada um seja responsável por uma parte específica da aplicação, como gerenciamento de voos, controle de passageiros, emissão de bilhetes, entre outros. Essa separação de responsabilidades é crucial para facilitar a manutenção e a escalabilidade da aplicação.</p>
